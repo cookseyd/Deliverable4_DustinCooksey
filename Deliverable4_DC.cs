@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 /*
  * Author: Dustin Cooksey
@@ -17,7 +17,6 @@ namespace Deliverable4_DustinCooksey
         {
             int a = 0;
             int b = 1;
-            int c = 0;
 
             int[] fib = new int[25];
             fib[0] = a;
@@ -33,9 +32,10 @@ namespace Deliverable4_DustinCooksey
 
             for (int d = 0; d < fib.Length; d++)
             {
-                Console.WriteLine(fib[d]);
+                Console.WriteLine("fibonacci number "+ d + " = " +fib[d]);
             }
 
         }
     }
 }
+
